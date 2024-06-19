@@ -36,7 +36,7 @@
 
 由于电商平台商品评论具有复杂性、多样化、大体量、主观态度明确等特点，本项目以最新款HUAWEI Pura 70 Ultra手机评论区为例进行项目展示。
 
-![alt text](readme图片/image.png)  
+![alt text](readme图片/image.png)   
 
 为了构建一个全面且具有代表性的评论数据集，我们采取了一系列严谨的步骤来确保数据的高质量和分析的有效性。我们首先从京东这一知名的电子商务平台中，选取了关于HUAWEI Pura 70 Ultra的最新评论数据。通过利用高效的自动化数据采集工具，结合人工校对的细致审查，成功收集了1135条评论，确保了数据集的完整性和准确性。
 
@@ -155,7 +155,7 @@ def Data_Cleansing():
                           max_words=100,
                           background_color='white',
                           mask=backgroud_Image)
-    my_wordcloud = wordcloud.fit_words(frequencies)# 生成词云
+    my_wordcloud = wordcloud.fit_words(frequencies)# 生成词云 
     # 显示词云
     plt.imshow(my_wordcloud)
     plt.axis('off')
@@ -165,7 +165,7 @@ def Data_Cleansing():
 
 *华为 Pura 70 Ultra 评论词云图*
 
-![alt text](image-3.png)
+![alt text](readme图片/image-3.png)   
 
 通过上方词云图可以看出，对评论数据进行处理后，切割效果较为符合预期。其中“速度”“外观”“拍照”“运行”“续航”等词出现频率较高，即在HUAWEI Pura 70 Ultra手机评论区中，出现的关键词主要集中在以上词语中，我们在大体上对该评论区成功进行了关键词提取。
 
