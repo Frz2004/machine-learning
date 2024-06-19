@@ -48,9 +48,9 @@
 
 库文件安装详见压缩包路径：win\venv\Lib\site-packages
 
-全部代码文件路径：win\win\xiangmu_pinglun.py
+全部代码文件路径：xiangmu_pinglun.py
 
-产出图路径：win\win\产出图
+产出图路径：产出图
 
 ---
 注：此处项目内容只做简单介绍，详细公式与算法请见项目报告。
