@@ -152,7 +152,7 @@ def Data_Cleansing():
     backgroud_Image = plt.imread('./data/pl.jpg')# 读取背景图片
     # 初始化WordCloud对象
     wordcloud = WordCloud(font_path="simsun.ttf",
-                          max_words=100,
+                          max_words=100, 
                           background_color='white',
                           mask=backgroud_Image)
     my_wordcloud = wordcloud.fit_words(frequencies)# 生成词云 
@@ -262,7 +262,7 @@ def Data_Cleansing():
 ![alt text](readme图片/image-4.png) 
 
 *负面评论词云*
-![alt text](image-5.png)
+![alt text](readme图片/image-5.png) 
 
 为了更清楚的反映出来我们对关键词分类的准确性，我们还对比了原评论关键词的褒贬属性与我们分析得出的褒贬属性。假定用户在评论时不存在选了好评的标签，而写了差评内容的情况，我们绘制如下测评矩阵：
 
