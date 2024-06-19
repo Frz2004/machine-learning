@@ -52,6 +52,8 @@
 
 产出图路径：产出图
 
+由于平台问题，有时可能出现图片无法正常显示的情况。本项目所有文件一并上传至教学云平台供老师批阅（附件名：win）
+
 ---
 注：此处项目内容只做简单介绍，详细公式与算法请见项目报告。
 
@@ -157,7 +159,7 @@ def Data_Cleansing():
                           max_words=100, 
                           background_color='white',
                           mask=backgroud_Image)
-    my_wordcloud = wordcloud.fit_words(frequencies)# 生成词云 
+    my_wordcloud = wordcloud.fit_words(frequencies)# 生成词云  
     # 显示词云
     plt.imshow(my_wordcloud)
     plt.axis('off')
