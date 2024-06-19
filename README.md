@@ -223,7 +223,7 @@ def Data_Cleansing():
                                                                     affective - 2]]])
             if ne == 1:
                 data_posneg['amend_weight'][index[i]] = - \
-                    data_posneg['weight'][index[i]]
+                    data_posneg['weight'][index[i]] 
 ```
 
 **(3) 褒贬词云图生成**
@@ -234,7 +234,7 @@ def Data_Cleansing():
 
 ```python
 # 绘制词云
-    import matplotlib.pyplot as plt
+    import matplotlib.pyplot as plt 
     from wordcloud import WordCloud
 
     # 正面关键词词云
@@ -259,7 +259,7 @@ def Data_Cleansing():
 ```
 
 *正面评论词云*
-![alt text](image-4.png)
+![alt text](readme图片/image-4.png) 
 
 *负面评论词云*
 ![alt text](image-5.png)
